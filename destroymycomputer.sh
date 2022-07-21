@@ -1,4 +1,8 @@
 #!/bin/bash
+if [[ $(./destroymycomputer -u) -ne 0 ]]; then
+    echo "Not running as root"
+    exit
+fi
 echo Are you sure you want to destroy your computer?
 #like, for real bro?
 sleep 1
