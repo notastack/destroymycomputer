@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ $(./destroymycomputer -u) -ne 0 ]]; then
+if [[ $(./destroymycomputer.sh -u) -ne 0 ]]; then
     echo "Not running as root"
     exit
 fi
