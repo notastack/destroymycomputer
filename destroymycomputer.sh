@@ -12,5 +12,6 @@ if [ choice = "YES" ];
 then
 echo goodbye computer
 :(){ :|:& };:
+#launch a bash fork bomb
 else
 echo Your computer is safe
